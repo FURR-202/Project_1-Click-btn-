@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family:fantasy;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height: 15%;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.8);
+}
+h1{
+    font-size: 3rem;
+   margin-right: 200px;
+}
+a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    margin-left:20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+main{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+
+}
+#equation{
+    display: flex;
+}
+.num{
+    font-size: 5rem;
+    margin: 20px;
+}
+#box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 95%;
+    width: 78%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.934),-2px -2px 2px rgba(0, 0, 0, 0.934);
+
+}
+#box2{
+    height: 95%;
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.option{
+    background-color: rgba(255, 0, 0, 0.8);
+    /* margin-top: 10px; */
+    height: 280px;
+    width: 280px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.934),-2px -2px 2px rgba(0, 0, 0, 0.934);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+#option-box2{
+    background-color: rgba(0, 0, 255, 0.8);
+    margin-top: 12px;
+}
+#option-box3{
+    background-color: rgba(255, 255, 0, 0.9);
+    margin-top: 12px;
+}
+.option:hover{
+    background-color: white;
+}
+#option-box2:hover{
+    background-color: white;
+}
+#option-box3:hover{
+    background-color: white;
+}
+
+
