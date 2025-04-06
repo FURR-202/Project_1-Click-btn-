@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    background-color: rgb(78, 212, 78);
+    border: 4px solid gray;
+}
+#num{
+    font-family: cursive;
+    font-size: 8em;
+}
+@media(max-width:505px){
+    #num{
+        font-size: 5rem;
+    }
+}
