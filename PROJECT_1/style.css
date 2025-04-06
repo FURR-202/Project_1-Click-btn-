@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(9, 60, 228);
+    padding: 8px;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: rgb(1, 25, 104);
+}
+h3{
+    color:white;
+}
+
