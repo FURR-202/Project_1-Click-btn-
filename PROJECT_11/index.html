@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Flashcard</h1>
+        <div>
+        <button class="btn1" id="newcard" onclick="ShowCreateBox()">New Card</button>
+        <button class="btn1" id="delcard" onclick="deletecard()">Del Card</button>
+        </div>
+    </header>
+    <div id="fake-header"></div>
+    <main>
+        <div id="create-flashcard">
+            <h2>Create Flashcard</h2>
+            <label for="Q-input">Question</label>
+            <input id="Q-input" type="text" placeholder="Enter question here">
+            <label for="ans-input">Answer</label>
+            <input id="ans-input" type="text" placeholder="Enter answer here">
+            <div id="btns-box"><button class="btn2" id="save" onclick="CreateCard()">Save</button>
+                 <button class="btn2" id="close" onclick="HideCreateBox()">Close</button>
+                 <button class="btn2" id="deleteItem" onclick="singleItemDelete()">Remove</button>
+                 <button class="btn2" id="editItem" >Edit</button>
+                </div>
+        </div>
+        <div id="container"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
